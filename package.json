@@ -1,0 +1,17 @@
+{
+  "name": "evilinvaders",
+  "displayName": "EvilInvaders",
+  "version": "0.0.1",
+  "description": "An Invader party!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rimraf www && parcel src/index.html --out-dir www --https"
+  },
+  "author": "CodeMonkey.Games",
+  "dependencies": {
+    "phaser": "^3.24.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
